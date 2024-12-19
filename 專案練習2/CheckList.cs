@@ -31,7 +31,7 @@ namespace 專案練習2
         {
             foreach (ArrayList 品項 in GlobalVar.list訂購品項集合) 
             {
-                string 品項名稱 = (string)品項[1]; //321
+                string 品項名稱 = (string)品項[1]; 
                 int 數量 = (int)品項[2];
                 int 單價 = (int)品項[3];
                 int 總額 = (int)品項[4];
